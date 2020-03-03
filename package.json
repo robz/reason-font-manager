@@ -11,19 +11,16 @@
     ],
     "buildsInSource": "_build"
   },
-  "scripts": {
-    "format": "esy dune build @fmt --auto-promote"
-  },
+  "scripts": { "format": "esy dune build @fmt --auto-promote" },
   "dependencies": {
+    "@esy-ocaml/reason": "^3.4.0",
+    "@opam/dune-configurator": "2.3.1",
     "@reason-native/console": "*",
     "@reason-native/pastel": "*",
     "@reason-native/rely": "*",
-    "@esy-ocaml/reason": "^3.4.0",
     "refmterr": "*"
   },
-  "peerDependencies": {
-    "ocaml": ">=4.6.0"
-  },
+  "peerDependencies": { "ocaml": ">=4.6.0" },
   "devDependencies": {
     "@opam/merlin": "*",
     "ocaml": ">=4.6.0",
